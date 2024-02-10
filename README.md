@@ -2,10 +2,21 @@
 
 **Only esm**
 
+![logo](https://imagedelivery.net/6bSk6wUa9UOwEesJAZQuoA/0972261b-3339-4c6c-db28-34fb02613000/public)
+
+---
 ## Install
 
-```bash
-npm i @inovar/inox -D
+```shell
+npm i khayax
+```
+
+```shell
+yarn add khayax
+```
+
+```shell
+pnpm i khayax
 ```
 
 ## Usage
@@ -18,7 +29,7 @@ npm i @inovar/inox -D
         [
             "@babel/preset-react", {
                 "runtime": "automatic",
-                "importSource": "@inovar/inox"
+                "importSource": "khayax"
             }
         ]
     ]
@@ -51,13 +62,13 @@ export default{
 **Without useing Babel : comment before the JSX code**
 
 ```javascript
-/** @jsxImportSource @inovar/inox */
+/** @jsxImportSource khayax */
 ```
 
 #### Example
 
 ```jsx
-import { render } from "@inovar/inox";
+import { render } from "khayax";
 
 const App = () => (
     <h1>Hello World</h1>
@@ -70,9 +81,9 @@ With JSX comment
 
 ```jsx
 
-/** @jsxImportSource @inovar/inox */
+/** @jsxImportSource khayax */
 
-import { render } from "@inovar/inox";
+import { render } from "khayax";
 
 const BlogPost = ({content}) => (
     <span>{content}</span>
@@ -97,7 +108,7 @@ render(<App />, document.getElementById('app'));
 
 ```jsx
 
-import { render } from "@inovar/inox";
+import { render } from "khayax";
 
 const App = async() => {
 

@@ -2,8 +2,8 @@
   "name": "khayax",
   "version": "1.0.0",
   "description": "Lightweight JSX Runtime",
-  "main": "src/jsx-runtime/index.js",
-  "types": "./src/jsx-runtime/index.d.ts",
+  "main": "jsx-runtime/index.js",
+  "types": "./jsx-runtime/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
