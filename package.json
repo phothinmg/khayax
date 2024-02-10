@@ -1,0 +1,25 @@
+{
+  "name": "khayax",
+  "version": "1.0.0",
+  "description": "Lightweight JSX Runtime",
+  "main": "src/jsx-runtime/index.js",
+  "types": "./src/jsx-runtime/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.3.1"
+  },
+  "author": "PTM",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inovar-dev/inox.git"
+  }
+}
